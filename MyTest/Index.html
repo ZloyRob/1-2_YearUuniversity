@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1251 /">
+ <link rel="stylesheet" type="text/css" href="t1.css" media="all"/>
+<script type="text/javascript" src="t11.js"> </script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+</head>
+<body class="bkg">
+<h1 style="font-family:Fantasy; margin-left:500px">Super Test </h1>
+<form name="form1">
+<fieldset class="fild">
+<legend> Назовите себя </legend>
+Фамилия <input type="text" name="name1">
+Имя <input type="text" name="name2" >
+Отчество <input type="text" name="name3" >
+Группа <select name="sel1">
+<option id="op1"> ИТб-131
+<option> ИТб-132
+<option> ИТб-133
+<option> Преподавател
+</select>
+<input type="reset" value="Очистить">
+</fieldset>
+<fieldset class="fild">
+	<legend>
+		Вопросы
+	</legend>
+	<ol>
+	<li><label class="fontvop">   Как зовут мальчика на фото? </label><br/>  </li>
+	<img src="v1.jpg" class="hb">
+	<input type="text" class="tb" id="vop1"><br/>
+    <li><label class="fontvop">  Сколько % солнечного света отражает снег обратно в космос? </label><br/></li>
+    <input type="checkbox" class="checkb" id="v1"> менее 30<br\>
+    <input type="checkbox" class="checkb" id="v2">45<br\><br/>
+    <input type="checkbox" class="checkb" id="v3">74,5<br\>
+    <input type="checkbox" class="checkb" id="v4">90<br\>
+    <br/>
+    <li><label class="fontvop" >   С какой группы парень справа? </label><br/></li>
+	<select class="sel" id="sel1">
+		<option> Подготовительная
+		<option> ИТб-132
+		<option> Преподаватель
+		<option > ИТб-131
+	</select><br/>
+    <li><label class="fontvop">   Введите число, равное кол-ву кнопок на клавиатуре/53</label><br/></li>
+    <input type="text" class="sel" name="vop2" ><br/>
+    <li><label class="fontvop">   Как называются люди, в одинаковой степени, владеющие обеими руками? </label><br/></li>
+    <input type="text" class="tb" name="vop3"><br/>
+    <li><label class="fontvop">   Самый сильный заменитель сахара это? </label><br/></li>
+    <input type="text" class="tb" name="vop4"><br/>
+    <li><label class="fontvop">   В какое время человек тяжелее всего переносит одиночество? </label><br/></li>
+    <input type="radio"   name ="p2" class="checkb" id="che1"> 11:00-13:00 <input type="radio"   name ="p2" class="checkb" id="che2"> 20:00-22:00 <br/>
+    <input type="radio"   name ="p2" class="checkb" id="che3"> 15:00-17:00 <input type="radio"   name ="p2" class="checkb" id="che4"> 9:00-11:00 <br/>
+    <li><label class="fontvop"> Что изображено на фото? </label></li> <img src="part.jpg" class="sir"><br/>
+    <input type="text" class="tb" name="vop5"><br/>
+    <li><label class="fontvop"> Кто изобре(л/ла) ножницы? </label></li>
+    <input type="radio"   name ="p3" class="checkb" id="chee1"> Леонардо Да Винчи <input type="radio"   name ="p3" class="checkb" id="chee2"> Ричард Брендсон <br/>
+    <input type="radio"   name ="p3" class="checkb" id="chee3"> Евреи <input type="radio"   name ="p3" class="checkb" id="chee4"> Джен Псаки <br/>
+    <li><label class="fontvop">   Что нужно поставить создателю теста? </label><br/></li>
+    <input type="radio"   name ="pl" class="checkb" id="ch1"> Отлично <input type="radio"   name ="p1" class="checkb" id="ch2"> +<br/>
+    <input type="radio"   name ="p1" class="checkb" id="ch3"> 5 <input type="radio"   name ="p1" class="checkb" id="ch4"> Зачет<br/>
+    </ol>
+        <label class="fontvop"> Оставьте ваш комментарий к тесту </label> <br/>
+        <textarea cols="60" rows="3" class="tarea">  </textarea><br/>
+    <input type="reset" id="b1" value="Очистить весь текст"> <input type="button" id="b1" onclick=check() value="Проверить">
+</fieldset>
+</form>
+<div class="rez1" id="rez1">Правильных ответов <br/> <br/>  <br/>  <input type="button" onclick=res() value="Заново" id="butn"> </div>
+<div class="rez2" id="rez2"></div>
+<div class="rez3" id="rez3"></div>
+<div class="rez4" id="rez4"></div>
+<div class="rez5" id="rez5"></div>
+<div class="backg" id="backg"></div>
+<div class="num" id="num">0</br>1<br/>2<br/>3<br/>4<br/>5<br/>6<br/>7<br/>8<br/>9<br/>10</div>
+</body>
+</html>

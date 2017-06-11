@@ -1,0 +1,129 @@
+.bkg{
+	background-color: #BEBEBE;
+	background-image: url(test.png);
+	background-repeat: repeat-y;
+	background-position: right;
+	top: 100px;
+	background-size: 29.5%;
+	font-family: Arial;
+	font-weight: bold;
+}
+.fild{
+	width: 66.5%;
+	padding: 20px;
+	border-color:#708090;
+	border-style: dashed;
+	border-width: thick;
+}
+.checkb{
+	margin-left: 50px;
+}
+.hb{
+	float: right;
+	width: 230px;
+	height:300px;
+}
+.tb{
+	margin-left: 50px;
+}
+.sel{
+	margin-left: 50px;
+}
+#b1{
+	float: left;
+	margin-right: 50px;
+}
+.tarea{
+		outline-color: green;
+}
+.sir{
+	margin-left: 50px;
+}
+.rez1{
+	position: absolute;
+	top: 0px;
+	left: 350px;
+	height: 820px;
+	width: 350px;
+	background-color: #33a8bd;
+	text-align: center;
+	display: none;
+	padding-top: 270px;
+	font-family: Arial;
+	font-size: 25pt;
+	box-shadow: -50px 0px 20px;
+
+}
+.rez2{
+	position: absolute;
+	left: 700px;
+	top: 0px;
+	height: 250px;
+	background-color: #33a8bd;
+	width: 100px;
+	z-index: 3;
+	display: none;
+}
+.rez5{
+	position: absolute;
+	left:690px;
+	top: 240px;
+	width: 100px;
+	height: 100px;
+	border: 10px #33a8bd solid ;
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px;
+	z-index: 4;
+	display: none;
+}
+.rez3{
+	position: absolute;
+	left: 700px;
+	top: 350px;
+	height: 740px;
+	background-color: #33a8bd;
+	width: 100px;
+	z-index: 3;
+	display: none;
+}
+.rez4{
+	position: absolute;
+	left: 800px;
+	top: 0px;
+	height: 1090px;
+	background-color: #33a8bd;
+	width: 110px;
+	display: none;
+	box-shadow: 50px 0px 20px;
+}
+.backg{
+	position: absolute;
+	background-color: #423D3D;
+	top: 250px;
+	height: 100px;
+	width: 100px;
+	left: 700px;
+	z-index: 1;
+	display: none;
+}
+.num{
+	position: absolute;
+	font-size: 50pt;
+	left: 720px;
+	top: 265px;
+	z-index: 2;
+	display: none;
+	color: #ded1d1;
+}
+#butn{
+	background: #2E8CE3;
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+	cursor: pointer;
+	text-align: center;
+	border: solid 1px #73C8F0;
+	width: 100px;
+	height: 50px;
+	box-shadow: 0px 0px 20px;
+}

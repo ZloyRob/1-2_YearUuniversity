@@ -1,0 +1,37 @@
+table.tablesorter {
+	font-size: 12px;
+
+	width: 600px;
+
+}
+table.tablesorter th {
+	text-align: left;
+	padding: 5px;
+
+}
+table.tablesorter td {
+
+	padding: 5px;
+}
+table.tablesorter .even {
+
+}
+table.tablesorter .odd {
+
+}
+table.tablesorter .header {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	border-radius: 0px;
+
+	height: 40px;
+}
+table.tablesorter .headerSortUp {
+	background-image: url(asc.gif);
+	background-repeat: no-repeat;
+}
+table.tablesorter .headerSortDown {
+	background-image: url(desc.gif);
+	background-repeat: no-repeat;
+}
+
